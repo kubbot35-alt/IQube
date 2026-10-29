@@ -100,8 +100,14 @@ export default function App() {
       />
 
       {/* Subtle Footer */}
-      <footer className="w-full border-t border-slate-900 py-4 px-6 text-center text-xs text-slate-600 font-normal">
-        IQube Psychometric Engine · Model oparty na matrycach progresywnych Ravena i estymacji czasu reakcji
+      <footer className="w-full border-t border-slate-900 py-4 px-6 text-center text-xs text-slate-500 font-normal">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-2">
+          <span>IQube Psychometric Engine</span>
+          <span className="hidden sm:inline text-slate-700">·</span>
+          <span>Autor: <strong className="text-slate-400 font-medium">@kubbot35-alt</strong></span>
+          <span className="hidden sm:inline text-slate-700">·</span>
+          <span>Licencja MIT</span>
+        </div>
       </footer>
     </div>
   );
