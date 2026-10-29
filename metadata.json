@@ -1,0 +1,6 @@
+{
+  "name": "CortexMatrix - Test Psychometryczny IQ",
+  "description": "Precyzyjny test inteligencji płynnej oparty na matrycach Ravena z adaptacyjną analizą czasu reakcji i trójwymiarową wizualizacją wyników Three.js.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
