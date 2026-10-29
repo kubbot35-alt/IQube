@@ -42,7 +42,7 @@ export const MethodologyModal: React.FC<MethodologyModalProps> = ({
           <div className="space-y-2">
             <h3 className="text-sm font-semibold text-slate-100 flex items-center gap-1.5">
               <ShieldCheck className="w-4 h-4 text-indigo-400" />
-              1. Inteligencja Płynna ($g_f$) i Matryce Progresywne
+              1. Inteligencja Płynna (g_f) i Matryce Progresywne
             </h3>
             <p className="text-slate-400">
               Test bada zdolność logicznego myślenia i rozwiązywania problemów w nowatorskich

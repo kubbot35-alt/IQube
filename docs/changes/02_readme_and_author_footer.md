@@ -5,8 +5,9 @@ Stworzenie pełnej dokumentacji projektu w pliku `README.md` oraz umieszczenie i
 
 ## 2. Wprowadzone Modyfikacje
 1. **Utworzenie pliku `README.md`:**
-   - Prezentacja założeń psychometrycznych testu IQ (inteligencja płynna $g_f$, matryce Ravena, skala Wechslera WAIS-IV).
-   - Precyzyjna matematyczna specyfikacja algorytmu uwzględniającego czas reakcji ($S_i$, parametry $\lambda=0.25$, $\beta=0.50$, $\delta=0.30$) oraz normalizacji Gaussa ($\mu=100, \sigma=15$).
+   - Prezentacja założeń psychometrycznych testu IQ (inteligencja płynna g_f, matryce Ravena, skala Wechslera WAIS-IV).
+   - Precyzyjna matematyczna specyfikacja algorytmu uwzględniającego czas reakcji (S_i, parametry λ = 0.25, β = 0.50, δ = 0.30) oraz normalizacji Gaussa (μ = 100, σ = 15).
+   - Wszystkie formuły i równania sformatowane za pomocą czystego tekstu Markdown, symboli Unicode oraz wieloliniowych bloków kodu tekstowego (bez składni LaTeX).
    - Opis architektury Clean Architecture z podziałem na warstwy: `src/core`, `src/graphics`, `src/visualizer` oraz `src/ui`.
    - Wyszczególnienie stosu technologicznego (TypeScript, React 19, Three.js, Canvas 2D, Tailwind CSS, Lucide).
    - Instrukcja instalacji i uruchomienia (`npm install`, `npm run dev`, `npm run build`).
@@ -17,5 +18,5 @@ Stworzenie pełnej dokumentacji projektu w pliku `README.md` oraz umieszczenie i
      `IQube Psychometric Engine · Autor: @kubbot35-alt · Licencja MIT`.
 
 ## 3. Zgodność z Zasadami Architektury
-- Kod w pełni otypowany w TypeScript (zero `any`).
+- Kod w pełni otypowany w TypeScript (zero typów any).
 - Architektura domenowa pozostała całkowicie odizolowana od zmian widokowych i tekstowych.
